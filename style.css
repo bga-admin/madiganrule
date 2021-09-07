@@ -1,0 +1,137 @@
+h1{
+
+    font-family: 'Proxima Nova' !important;
+    font-weight: Bold !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  font-family: Proxima Nova !important;
+  background-color: #f7f7f7 !important;
+
+}
+
+.playVect{
+
+    width: 184%;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: .1fr 1.0fr 2.4fr 0.6fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 46px 23px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      ". Play Listen .";
+  }
+  
+  .Play { grid-area: Play; }
+  
+  .Listen { grid-area: Listen; }
+
+  .Listen{
+
+    font-size: 1.5rem;
+  }
+  
+
+.button{
+
+    background-color: #4B8BBf
+
+    ;
+}
+.v8_4 {
+  width: 526px;
+  height: 162px;
+  background: url("../images/v8_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v8_5 {
+  width: 526px;
+  height: 162px;
+  background: rgba(255,255,255,0.699999988079071);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v8_6 {
+  width: 172px;
+  height: 38px;
+  background: rgba(86,136,194,1);
+  opacity: 1;
+  position: absolute;
+  top: 115px;
+  left: 12px;
+  overflow: hidden;
+}
+.v8_7 {
+  width: 293px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 29px;
+  left: 12px;
+  font-family: Proxima Nova;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+.date {
+
+
+  font-family: Proxima Nova;
+  font-weight: Light;
+  font-size: 16px;
+
+
+}
+.desc {
+
+  font-family: Proxima Nova;
+
+
+
+
+}
+.v8_11 {
+  width: 502px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 62px;
+  left: 12px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v9_25 {
+  width: 18px;
+  height: 21px;
+  background: url("../images/v9_25.png");
+  opacity: 1;
+  position: absolute;
+  top: 123px;
+  left: 31px;
+  border: 1.5px solid rgba(255,255,255,1);
+}
