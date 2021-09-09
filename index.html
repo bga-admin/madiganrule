@@ -8,6 +8,8 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Proxima+Nova&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.typekit.net/lmn6ieu.css">
+  <link rel="shortcut icon" type="image/jpg" href="bgafav.png" />
+  <script src="https://kit.fontawesome.com/f41333a293.js" crossorigin="anonymous"></script>
 
 
   <meta charset="utf-8">
@@ -34,37 +36,40 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <a class="navbar-brand" href="bettergov.org"><img id="" class="bgaLogo "
+        src="bga.png"></a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mx-5">
+          <li class="nav-item active mx-3">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Dropdown link
+          <li class="nav-item dropdown mx-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Episodes
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="episodepage.html">Episode 1</a>
+              <a class="dropdown-item" href="#">Episode 2</a>
+
             </div>
           </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="https://donate.bettergov.org/?utm_source=das&utm_medium=email&utm_campaign=mar2&eType=EmailBlastContent&eId=a3b0a099-8112-4a12-b35a-f6ebb8843030">Donate</a>
+          </li>
+
         </ul>
+
       </div>
     </nav>
+
+
 
 
   </header>
@@ -91,20 +96,23 @@ background: radial-gradient(circle, rgba(0,58,99,1) 0%, rgba(33,95,140,1) 51%, r
         <div class="card " style="background: rgba(255, 255, 255, 0.85); border: none;">
           <div class="card-body">
             <h1 class="card-title display-4">The Madigan Rule</h1>
-            <p class="card-text">“The Madigan Rule” is a Better Government Association podcast that takes listeners
-              inside
-              the story of how Speaker Mike Madigan ran Illinois--for good and for ill. </p>
+            <div class="container mainDesc card-text">
 
-            <p> Hosted by Justin Kaufmann, a veteran radio host who covered Madigan, Kaufmann talks with people who
-              witnessed Madigan’s exercise of power: governors, lawmakers, journalists and politicos. They feared him
-              and
-              revered him and had no choice but to reckon with his rules.</p>
+              <p class="">“The Madigan Rule” is a Better Government Association podcast that takes listeners
+                inside
+                the story of how Speaker Mike Madigan ran Illinois--for good and for ill. </p>
+  
+              <p> Hosted by Justin Kaufmann, a veteran radio host who covered Madigan, Kaufmann talks with people who
+                witnessed Madigan’s exercise of power: governors, lawmakers, journalists and politicos. They feared him
+                and
+                revered him and had no choice but to reckon with his rules.</p>
+  
+              <p>It’s the Madigan Rule: a podcast about Illinois’ most powerful politician, featuring those who knew him
+                well.
+              </p>
+            </div>
 
-            <p>It’s the Madigan Rule: a podcast about Illinois’ most powerful politician, featuring those who knew him
-              well.
-            </p>
-            <iframe src="https://open.spotify.com/embed/episode/15UaxFXYfXTbjLBDfmiq83" width="100%" height="232"
-              frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/episode/6AxalbZfBwPg3A4nqo9Knz?t=54235" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
 
           <!-- <div class="card-img-bottom" id='buzzsprout-small-player-1845553'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1845553.js?player=small&container_id=buzzsprout-small-player-1845553'></script> -->
@@ -114,11 +122,14 @@ background: radial-gradient(circle, rgba(0,58,99,1) 0%, rgba(33,95,140,1) 51%, r
   </div>
 
   <div class=" container">
-    <div class=" row py-5">
+    <div class="row pt-5">        <h3><u>Episodes</u></h3>
+    </div>
+    <div class=" row ">
 
 
-      <div class=" col-lg-7 ">
-        <h3><u>Episodes</u></h3>
+      <div class=" col-lg-8 pl-0">
+        <div class=" col-lg-12 ">
+
         <div class="row card card-body my-4">
           <div class="col-xs-12 col-md-12">
             <div class="row">
@@ -143,10 +154,12 @@ background: radial-gradient(circle, rgba(0,58,99,1) 0%, rgba(33,95,140,1) 51%, r
               </div>
             </div>
             <div class="row ">
+              <a class="listNow" href="episodepage.html">
               <div class="cont button p-3">
                 <div class="Play"><img src="Vector.svg" alt="" class="playVect"></div>
-                <div class="Listen text-white">Listen Now</div>
+                <div class="Listen text-white">  Listen Now</div>
               </div>
+            </a>
 
 
             </div>
@@ -298,14 +311,16 @@ background: radial-gradient(circle, rgba(0,58,99,1) 0%, rgba(33,95,140,1) 51%, r
 
 
 
-
+        </div>
       </div>
-      <div class="col-lg-1"></div>
-      <div class="col-lg-4 ">
-        <div class="row card card-body my-5">
+      <!-- <div class="col-lg-1"></div> -->
+      <div class="col-lg-4 pr-0">
+        <div class="col-lg-12 ">
+
+        <div class="row card card-body my-4">
           <div class="col-xs-12 col-md-12">
             <div class="row">
-              <div class="col-12 text-center">
+              <div class="col-12 text-center pb-3">
                 <h2 class="">Where To Listen</h2>
 
               </div>
@@ -320,18 +335,95 @@ background: radial-gradient(circle, rgba(0,58,99,1) 0%, rgba(33,95,140,1) 51%, r
 
               </div>
               <div class="col-4 text-center">
-                <p>Episode 1: All Politics is Local </p>
+                <a href="https://www.freeiconspng.com/img/15398" title="Image from freeiconspng.com"><img src="gpod.png"  alt="Library Spotify Icon" style="width: 100%;" /></a>
 
               </div>
             </div>
 
           </div>
         </div>
+
+        <div class="row card card-body my-4">
+          <div class="col-xs-12 col-md-12">
+            <div class="donate">
+           
+              <h2 class="text-center">Want To Support BGA?
+                <hr>
+       
+              </h2>
+              <div class="container">
+                <a href="https://default.salsalabs.org/Td4ccb64c-8ae0-40d8-9c3c-dba38de069e7/926443e8-06ef-43d9-82be-a8acdbd183b4"
+                  style="color:rgb(0,58,99);background:rgb(255,242,0);border-color:rgb(29,158,93);border-radius:8px;border-width:1px;border-style:solid;font-family:inherit;font-weight:400;line-height:1;text-decoration:none;text-align:center;display:block;padding-top:.75em;padding-right:1.5em;padding-bottom:.83333em;padding-left:1.5em;clear:both;font-size:1.08333em;word-wrap:break-word;word-break:break-word;background-color:rgb(29,158,93)"
+                  target="_blank"
+                  data-saferedirecturl="https://www.google.com/url?q=https://default.salsalabs.org/Td4ccb64c-8ae0-40d8-9c3c-dba38de069e7/926443e8-06ef-43d9-82be-a8acdbd183b4&amp;source=gmail&amp;ust=1614803319781000&amp;usg=AFQjCNGjZWXqCH8PNlwZE_52mTBgpxadeA"><span
+                    style="color:rgb(255,255,255)">MAKE A GIFT TODAY</span></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row card card-body my-4">
+          <div class="col-xs-12 col-md-12">
+            <div class="cta">
+           <img src="Group 4.png" style="width: 100%;">
+
+            </div>
+
+          </div>
+        </div>
+        </div>
       </div>
     </div>
   </div>
 
   </div>
+
+  <footer class="site-footer mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6></h6>
+          <p class="text-justify">
+            <a href="https://www.bettergov.org/"
+              class="navbar-brand text-uppercase font-weight-bold justify-content-start"><img id=""
+                style="width: 90px;" src="logo-white.png"></a>
+
+          </p>
+        </div>
+
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="https://www.bettergov.org/about-us/">About Us</a></li>
+            <li><a href="https://www.bettergov.org/contact/">Contact Us</a></li>
+            <li><a href="https://donate.bettergov.org/">Contribute</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by
+            <a href="www.bettergov.org">Better Government Association </a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="https://www.facebook.com/bettergov/"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter"
+                href="https://twitter.com/BetterGov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                  class="fa fa-twitter"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/company/better-government-association"><i
+                  class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
