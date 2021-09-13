@@ -1,4 +1,4 @@
-h1{
+h1, h2{
   line-height: 1.1 !important ;
   color: #003a63 !important;
   font-family: acumin-pro-condensed, sans-serif!important;
@@ -133,8 +133,12 @@ p{
 
 .desc2{
   font-family:   proxima-nova, sans-serif ;
-  font-size: 1.0em;
-  color:#555 ;
+  font-size: 1.18em;
+  color:rgb(82, 81, 81) ;
+}
+
+.desc2 p{
+  font-family: 'acumin-pro'!important;
 }
 
 .transcript{
@@ -351,8 +355,23 @@ p{
 
 .nav-link{
   font-size: 1.3rem !important;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
-.mainDesc{
+
+
+.mainDesc p{
   font-size: 1.2rem;
+
+  font-family: 'acumin-pro'!important;
+
+  font-weight: 400 !important;
+
+  color:rgb(82, 81, 81) ;
+}
+
+.subscribe h3{
+
+color: #003a63;
 }
