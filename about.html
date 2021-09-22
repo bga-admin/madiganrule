@@ -37,11 +37,12 @@
 
 <body>
     <header>
+      <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light  " style="border-bottom: 1px solid; background-color:#003a63!important;">
           <a class="navbar-brand" href="https://www.bettergov.org/"><img id="" class="bgaLogo "
             src="bga 1.png"></a>
     
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          <button class="navbar-toggler" type="button" style="background-color: white;" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -49,21 +50,21 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mx-5">
               <li class="nav-item active mx-3">
-                <a class="nav-link text-white" href="index.html" >Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#" >Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item dropdown mx-3">
                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Episodes
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="episodepage.html">Episode 1</a>
-                  <a class="dropdown-item" href="#">Episode 2</a>
-    
+                  <a class="dropdown-item hide" href="episodepage.html">Episode 1</a>
+                  <a class="dropdown-item hide" href="#">Episode 2</a>
+                  <span class="dropdown-item">Coming Soon</span>
                 </div>
               </li>
     
               <li class="nav-item mx-3">
-                <a class="nav-link text-white" href="#"  >About</a>
+                <a class="nav-link text-white" href="about.html"  >About</a>
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link text-white" href="https://donate.bettergov.org/?utm_source=das&utm_medium=email&utm_campaign=mar2&eType=EmailBlastContent&eId=a3b0a099-8112-4a12-b35a-f6ebb8843030" target="_blank">Donate</a>
@@ -296,5 +297,16 @@
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>
 </body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18960172-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
 
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-18960172-1');
+  </script>
 </html>
