@@ -385,3 +385,18 @@ font-family: acumin-pro-condensed, sans-serif!important;
 
 }
 
+.hide{
+
+  display: none !important;
+}
+
+.clock{
+
+  font-size: 3.0em;
+  color: white;
+}
+
+.buttonSoon{
+  background-color:#4b8bbf99;
+
+}
