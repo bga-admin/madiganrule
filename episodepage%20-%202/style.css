@@ -1,0 +1,476 @@
+h1,
+h2 {
+  line-height: 1.1 !important;
+  color: #003a63 !important;
+  font-family: acumin-pro-condensed, sans-serif !important;
+  font-weight: 800 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: acumin-pro-condensed, sans-serif !important;
+  background-color: #f7f7f7 !important;
+
+}
+
+.bgaLogo {
+  width: 17.625em;
+}
+
+p {
+  font-family: proxima-nova, sans-serif !important;
+
+}
+
+.playVect {
+
+  width: 184%;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: .1fr 1.0fr 2.4fr 0.6fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 46px 23px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-areas:
+    ". Play Listen .";
+}
+
+.Play {
+  grid-area: Play;
+}
+
+.Listen {
+  grid-area: Listen;
+}
+
+.Listen {
+
+  font-size: 1.5rem;
+  font-family: proxima-nova, sans-serif !important;
+
+}
+
+
+.button {
+
+  background-color: #4B8BBf;
+}
+
+.listNow {
+  text-decoration: none !important;
+}
+
+.button:hover {
+  background-color: #83b2d8;
+}
+
+.v8_4 {
+  width: 526px;
+  height: 162px;
+  background: url("../images/v8_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v8_5 {
+  width: 526px;
+  height: 162px;
+  background: rgba(255, 255, 255, 0.699999988079071);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v8_6 {
+  width: 172px;
+  height: 38px;
+  background: rgba(86, 136, 194, 1);
+  opacity: 1;
+  position: absolute;
+  top: 115px;
+  left: 12px;
+  overflow: hidden;
+}
+
+.v8_7 {
+  width: 293px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 29px;
+  left: 12px;
+  font-weight: Bold;
+  font-size: 22px;
+  opacity: 1;
+  text-align: left;
+}
+
+.date {
+
+
+  font-family: proxima-nova, sans-serif;
+
+  font-weight: Light;
+  font-size: 16px;
+
+
+}
+
+.desc {
+
+  font-family: proxima-nova, sans-serif;
+
+}
+
+.desc2 {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.18em;
+  color: rgb(82, 81, 81);
+}
+
+.desc2 p {
+  font-family: 'acumin-pro' !important;
+}
+
+.transcript {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.2em;
+
+}
+
+.v8_11 {
+  width: 502px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 62px;
+  left: 12px;
+  font-family: Roboto;
+  font-weight: Light;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v9_25 {
+  width: 18px;
+  height: 21px;
+  background: url("../images/v9_25.png");
+  opacity: 1;
+  position: absolute;
+  top: 123px;
+  left: 31px;
+  border: 1.5px solid rgba(255, 255, 255, 1);
+}
+
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #555;
+}
+
+.site-footer {
+  background-color: #003A63;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5
+}
+
+.site-footer hr.small {
+  margin: 20px 0
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px
+}
+
+.site-footer a {
+  color: #ffffff;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none
+}
+
+.footer-links li {
+  display: block
+}
+
+.footer-links a {
+  color: #ffffff
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block
+}
+
+.site-footer .social-icons {
+  text-align: right
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d
+}
+
+.copyright-text {
+  margin: 0
+}
+
+@media (max-width:991px) {
+  .site-footer [class^=col-] {
+    margin-bottom: 30px
+  }
+}
+
+@media (max-width:767px) {
+  .site-footer {
+    padding-bottom: 0
+  }
+
+  .youtube {
+    width: 510px;
+    height: 287px;
+  }
+
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center
+  }
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px
+}
+
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+  background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600
+  }
+}
+
+.nav-link {
+  font-size: 1.3rem !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+.mainDesc p {
+  font-size: 1.2rem;
+
+  font-family: 'acumin-pro' !important;
+
+  font-weight: 400 !important;
+
+  color: rgb(82, 81, 81);
+}
+
+.subscribe h3 {
+
+  color: #003a63;
+  font-family: acumin-pro-condensed, sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 1.2em;
+}
+
+
+.card {
+  border-radius: 0 !important;
+
+}
+
+.hide {
+
+  display: none !important;
+}
+
+.clock {
+
+  font-size: 3.0em;
+  color: white;
+}
+
+.buttonSoon {
+  background-color: #4b8bbf99;
+
+}
+
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+}
+
+
+.collapsible:hover {
+  background-color: #154262;
+}
+
+.collapsible {
+  color: white;
+  background: rgb(255, 242, 0);
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  text-align: center;
+  padding-top: .75em;
+  padding-right: 1.5em;
+  padding-bottom: .83333em;
+  padding-left: 1.5em;
+  clear: both;
+  font-size: 1.08333em;
+  word-wrap: break-word;
+  word-break: break-word;
+  background-color: #003a63;
+  cursor: pointer;
+  width: 100%;
+}
+
+.youtube {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.episodeLink{
+  color: #003a63;
+}
